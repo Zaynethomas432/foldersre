@@ -15,6 +15,8 @@ while True:
             break
         if cheese == stop:
             break
+        if cheese < stop:
+            print("Please enter a valid amount")
     except ValueError:
         print("Please enter a valid amount")
 while True:
@@ -26,6 +28,8 @@ while True:
             break
         if chicken == stop:
             break
+        if chicken < stop:
+            print("Please enter a valid amount")
     except ValueError:
         print("Please enter a valid amount")
 while True:
@@ -37,6 +41,8 @@ while True:
             break
         if pepperoni == stop:
             break
+        if pepperoni < stop:
+            print("Please enter a valid amount")
     except ValueError:
         print("Please enter a valid amount")
 while True:
@@ -48,18 +54,20 @@ while True:
             break
         if veggie == stop:
             break
+        if veggie < stop:
+            print("Please enter a valid amount")
     except ValueError:
         print("Please enter a valid amount")
     #print the wanted order
-for i in range(0,1):
-    if cheese != stop:
-        print(f"Cheese: {listpiz[0]}")
-    if chicken != stop:
-        print(f"Chicken: {listpiz[1]}")
-    if pepperoni != stop:
-        print(f"Pepperoni: {listpiz[2]}")
-    if veggie != stop:
-        print(f"Veggie: {listpiz[3]}")
+
+if cheese != stop:
+    print(f"Cheese: {listpiz[0]}")
+if chicken != stop:
+    print(f"Chicken: {listpiz[1]}")
+if pepperoni != stop:
+    print(f"Pepperoni: {listpiz[2]}")
+if veggie != stop:
+    print(f"Veggie: {listpiz[3]}")
         
         
 
