@@ -54,11 +54,11 @@ while True:
 for i in range(0,1):
     if cheese != stop:
         print(f"Cheese: {listpiz[0]}")
-    if cheese != stop:
+    if chicken != stop:
         print(f"Chicken: {listpiz[1]}")
-    if cheese != stop:
+    if pepperoni != stop:
         print(f"Pepperoni: {listpiz[2]}")
-    if cheese != stop:
+    if veggie != stop:
         print(f"Veggie: {listpiz[3]}")
         
         
