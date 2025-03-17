@@ -28,7 +28,7 @@ while True:#loop until right option for chicken
             listpizza.append(chicken)
             break
         if chicken == stop:
-            listpizza.append(cheese)
+            listpizza.append(chicken)
             break
         if chicken < stop:
             print("Please enter a valid amount")
@@ -42,7 +42,7 @@ while True:#loop until right option for pepperoni
             listpizza.append(pepperoni)
             break
         if pepperoni == stop:
-            listpizza.append(cheese)
+            listpizza.append(pepperoni)
             break
         if pepperoni < stop:
             print("Please enter a valid amount")
@@ -56,7 +56,7 @@ while True:#loop until right option for veggie
             listpizza.append(veggie)
             break
         if veggie == stop:
-            listpizza.append(cheese)
+            listpizza.append(veggie)
             break
         if veggie < stop:
             print("Please enter a valid amount")
@@ -73,6 +73,7 @@ if listpizza[2] != stop:
     print(f"Pepperoni: {listpizza[2]}")
 if listpizza[3] != stop:
     print(f"Veggie: {listpizza[3]}")
+
         
         
 
