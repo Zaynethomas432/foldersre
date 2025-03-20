@@ -21,3 +21,4 @@ print("My bank balances have been:")
 print(ogbalance) # Print the final balance history
 for b in balances:
     print(b)
+#what the sigma 
