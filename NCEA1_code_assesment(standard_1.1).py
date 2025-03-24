@@ -3,7 +3,7 @@
 
 good_descent = 10
 bad_speed = 0
-stop = 'terminate'
+stop = 'terminate' #stop requirement
 
 #define lists of all speeds 
 speedlist = []
