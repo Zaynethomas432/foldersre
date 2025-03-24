@@ -17,6 +17,8 @@ while speed != stop:# making the code run until 'terminate' is entered
     #check for valid speed
     try:
         speedlist.append(float(speed))#append to list
+        if speed < zero: 
+            print('Error, invalid input.')
     except: #check for valid input 
         print('Error, invalid input.')
     speed = input('Input descent speed in m/s: ')
