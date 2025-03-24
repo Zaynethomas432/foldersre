@@ -35,7 +35,7 @@ else:
 
 print("The unsafe speeds are")
 for item in speedlist:
-    print(item > good_descent)
+    print(item)
     
 
 
