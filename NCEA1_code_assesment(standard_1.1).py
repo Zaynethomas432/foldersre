@@ -32,6 +32,10 @@ if bad_speed != 1:
     print(f"There were {bad_speed} space shuttles faster than the safe speed.")
 else:
     print(f"There was 1 space shuttle faster than the safe speed.")
+
+print("The unsafe speeds are")
+for item in speedlist > good_descent:
+    print(item)
     
 
 
