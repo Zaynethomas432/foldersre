@@ -16,6 +16,11 @@ while speed != stop:# making the code run until 'terminate' is entered
         print('Error, invalid input.')
     speed = input('Input descent speed in m/s: ')
 
+#find the amount of shuttles too fast. 
+for item in speedlist:
+    if item > good_descent:
+        bad_speed += 1 
+
 
     
 
