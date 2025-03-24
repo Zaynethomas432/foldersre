@@ -41,11 +41,7 @@ if bad_speed > zero: #check if there isnt 0 fast shuttles, so that we know there
     for item in speedlist:
         if float(item) > good_descent:
             print(item)
-if bad_speed == 1: #check if there isnt 0 fast shuttles, so that we know there is something to print
-    print("The unsafe speed is")
-    for item in speedlist:
-        if float(item) > good_descent:
-            print(item)
+            
 else:  #passes because there are zero too fast space shuttles
     pass
     
