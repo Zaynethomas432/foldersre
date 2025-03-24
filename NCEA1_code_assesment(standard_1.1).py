@@ -4,6 +4,7 @@
 good_descent = 10
 bad_speed = 0
 stop = 'terminate' #stop requirement
+zero = 0 
 
 #define lists of all speeds 
 speedlist = []
@@ -35,10 +36,13 @@ if bad_speed != 1:
 else:
     print(f"There was 1 space shuttle faster than the safe speed.")
 
-print("The unsafe speeds are")
-for item in speedlist:
-    if float(item) > good_descent:
-    print(item)
+if bad_speed > zero:
+    print("The unsafe speeds are")
+    for item in speedlist:
+        if float(item) > good_descent:
+            print(item)
+else: 
+    pass
     
 
 
