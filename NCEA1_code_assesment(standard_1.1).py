@@ -7,6 +7,7 @@ stop = 'terminate' #stop requirement
 
 #define lists of all speeds 
 speedlist = []
+
 #ask the user to input
 speed = input('Input descent speed in m/s: ')
 #loop to keep on asking for input until code is terminated
@@ -20,10 +21,11 @@ while speed != stop:# making the code run until 'terminate' is entered
 
 
 #find the amount of shuttles too fast. 
-
+bad_speedlist = []
 for item in speedlist:
     if item > good_descent:
         bad_speed += 1 
+
 
 
 
@@ -35,6 +37,7 @@ else:
 
 print("The unsafe speeds are")
 for item in speedlist:
+    if float(item) > good_descent:
     print(item)
     
 
