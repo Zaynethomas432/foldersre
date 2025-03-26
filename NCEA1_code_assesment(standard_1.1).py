@@ -14,18 +14,17 @@ speedlist = []
 speed = input('Input descent speed in m/s: ')
 #loop to keep on asking for input until code is terminated
 while speed != stop:# making the code run until 'terminate' is entered 
-    #check for valid speed
+    #check for valid speed 
     try:
         speedlist.append(float(speed))#append to list
-        if speed < zero: 
-            print('Error, invalid input.')
+        if float(speed) < zero:
+            print('Error, invalid input.') 
     except: #check for valid input 
         print('Error, invalid input.')
     speed = input('Input descent speed in m/s: ')
 
 
 #find the amount of shuttles too fast. 
-bad_speedlist = []
 for item in speedlist:
     if item > good_descent:
         bad_speed += 1 
